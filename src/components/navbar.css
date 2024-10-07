@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-logo img {
+    height: 50px; /* Adjust according to your logo size */
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .github-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .github-icon {
+    margin-right: 5px; /* Space between icon and text */
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
